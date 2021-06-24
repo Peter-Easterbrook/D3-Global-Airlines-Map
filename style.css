@@ -101,15 +101,8 @@ svg {
   border-radius: 0.4rem;
   margin: 2rem;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  font-family: 'Raleway', sans-serif;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  margin: auto;
-}
 h2 {
   background-color: #000f33;
   border: 1px solid #fff;
@@ -117,7 +110,7 @@ h2 {
   color: white;
   padding: 0.2rem;
   width: 40%;
-  margin: 1rem auto 0;
+  margin: 4rem auto 2rem;
   font-weight: 300;
   text-align: center;
 }
@@ -136,7 +129,7 @@ h3 {
 .mainView {
   display: flex;
   flex-wrap: wrap;
-
+  place-items: center;
   margin-top: 1rem;
   color: #fff;
   font-weight: lighter;
@@ -146,4 +139,8 @@ h3 {
   flex-direction: column;
   place-items: center;
   margin: auto;
+}
+#AirlinesChart {
+  padding: 0.4rem 1rem;
+  font-family: 'Raleway', sans-serif;
 }
