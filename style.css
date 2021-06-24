@@ -97,14 +97,14 @@ select {
 }
 svg {
   border: 1px solid #fff;
-  background-color: #000f33;
+  background-color: #000;
   border-radius: 0.4rem;
   margin: 2rem;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 h2 {
-  background-color: #000f33;
+  background-color: #000;
   border: 1px solid #fff;
   border-radius: 0.4rem;
   color: white;
@@ -116,7 +116,7 @@ h2 {
 }
 
 h3 {
-  background-color: #000f33;
+  background-color: #000;
   border: 1px solid #fff;
   border-radius: 0.4rem;
   color: white;
