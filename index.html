@@ -34,6 +34,7 @@
   </head>
 
   <body>
+    <canvas id="thpace"></canvas>
     <h2>D3 Airlines Routes</h2>
 
     <div class="mainView">
@@ -47,6 +48,17 @@
       </div>
     </div>
   </body>
+  <script src="thpace.min.js"></script>
+  <script>
+    const canvas = document.getElementById('thpace');
+
+    const settings = {
+      colors: ['#000018', '#2d66a7', '#000018'],
+      triangleSize: 100,
+    };
+
+    ThpaceGL.create(canvas, settings);
+  </script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
     let store = {};

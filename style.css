@@ -61,18 +61,16 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  display: none;
 }
-body::-webkit-scrollbar-thumb {
-  background-color: #8b92a5;
-  border-radius: 10px;
-}
-body::-webkit-scrollbar-thumb:hover {
-  background: #b5ccf6;
-}
-body::-webkit-scrollbar-track {
-  background: #5c5c5c;
+#thpace {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
