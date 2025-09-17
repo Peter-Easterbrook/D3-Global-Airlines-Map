@@ -106,6 +106,7 @@ h2 {
   color: white;
   padding: 0.4rem;
   width: 20%;
+  max-width: 20rem;
   margin: 4rem auto 2rem;
   text-align: center;
   text-shadow: var(--text-shadow);
@@ -139,4 +140,8 @@ h3 {
 #AirlinesChart {
   padding: 0.4rem 1rem;
   font-family: 'Raleway', sans-serif;
+}
+#AirlinesChart .bar,
+#AirlinesChart rect {
+  cursor: pointer;
 }
